@@ -50,6 +50,32 @@
                     "attr":"href"
                 }
             }
+        },
+ {
+            "channel":"Xvideos",
+            "url":"https://www.xvideos.com",
+            "keys":{
+                "rootCssQuery":".thumb-block",
+                "name":{
+                    "cssQuery":".thumb-under a",
+                    "attr":"title"
+                },
+                "thumb":{
+                    "cssQuery":"img",
+                    "attr":"data-src"
+                },
+                "viewCount":{
+                    "cssQuery":"metadata"
+                },
+                "duration":{
+                    "selectType":"all",
+                    "cssQuery":"duration"
+                },
+                "url":{
+                    "cssQuery":"a",
+                    "attr":"href"
+                }
+            }
         }
     ]
 }
