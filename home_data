@@ -66,7 +66,7 @@
                 },
                 "viewCount":{
                     "cssQuery":".metadata",
-                    "regex":"\\d+(,\\d+)*"
+                    "regex":"-\\s(.*?)\\s+views"
                 },
                 "duration":{
                     "selectType":"all",
