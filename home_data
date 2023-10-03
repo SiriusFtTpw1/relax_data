@@ -65,7 +65,8 @@
                     "attr":"data-src"
                 },
                 "viewCount":{
-                    "cssQuery":".metadata"
+                    "cssQuery":".metadata",
+                    "regex":"(\\d+,\\d+)\\s+views"
                 },
                 "duration":{
                     "selectType":"all",
