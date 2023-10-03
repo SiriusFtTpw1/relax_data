@@ -22,5 +22,34 @@
             "type":"landscape-movie"
         }   
     ],
-    "pics":{}
+    "pics":{},
+ "inter-movies":[
+        {
+            "channel":"Xnxx",
+            "url":"https://www.xnxx.com/todays-selection",
+            "keys":{
+                "rootCssQuery":"",
+                "name":{
+                    "cssQuery":".thumb-under a",
+                    "attr":"title"
+                },
+                "thumb":{
+                    "cssQuery":"img",
+                    "attr":"data-src"
+                },
+                "viewCount":{
+                    "selectType":"all",
+                    "cssQuery":"right"
+                },
+                "duration":{
+                    "selectType":"all",
+                    "cssQuery":"metadata"
+                },
+                "url":{
+                    "cssQuery":"a",
+                    "attr":"href"
+                }
+            }
+        }
+    ]
 }
