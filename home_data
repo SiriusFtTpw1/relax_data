@@ -28,7 +28,7 @@
             "channel":"Xnxx",
             "url":"https://www.xnxx.com/todays-selection",
             "keys":{
-                "rootCssQuery":"",
+                "rootCssQuery":".thumb-block",
                 "name":{
                     "cssQuery":".thumb-under a",
                     "attr":"title"
