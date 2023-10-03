@@ -65,11 +65,11 @@
                     "attr":"data-src"
                 },
                 "viewCount":{
-                    "cssQuery":"metadata"
+                    "cssQuery":".metadata"
                 },
                 "duration":{
                     "selectType":"all",
-                    "cssQuery":"duration"
+                    "cssQuery":".duration"
                 },
                 "url":{
                     "cssQuery":"a",
