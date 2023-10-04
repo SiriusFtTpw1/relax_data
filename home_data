@@ -97,10 +97,10 @@
                 }
             },
             "viewCount":{
-                "cssQuery":"mbvie"
+                "cssQuery":".mbvie"
             },
             "duration":{
-                "selectType":"mbtim"
+                "cssQuery":".mbtim"
             },
             "url":{
                 "cssQuery":"a",
