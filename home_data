@@ -107,6 +107,31 @@
                 "attr":"href"
             }
         }
+    },
+{
+        "channel":"Pornhub",
+        "url":"https://www.pornhub.com",
+        "keys":{
+            "rootCssQuery":".videoList li",
+            "name":{
+                "cssQuery":"img",
+                "attr":"alt"
+            },
+            "thumb":{
+                "cssQuery":"img",
+                "attr":"src"
+            },
+            "viewCount":{
+                "cssQuery":".views"
+            },
+            "duration":{
+                "cssQuery":".time"
+            },
+            "url":{
+                "cssQuery":"a",
+                "attr":"href"
+            }
+        }
     }
     ]
 }
