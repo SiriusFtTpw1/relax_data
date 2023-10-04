@@ -91,7 +91,14 @@
             },
             "thumb":{
                 "cssQuery":"img",
-                "attr":["src","data-src"],
+                "thumb":{
+                "cssQuery":"img",
+                "attr":{
+                    "attrs":["src","data-src"],
+                    "startWith":"http"
+                },
+                "replace":["THUMBNUM","1"]
+            },
                 "replace":["THUMBNUM","1"]
             },
             "viewCount":{
