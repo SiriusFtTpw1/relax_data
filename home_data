@@ -35,7 +35,8 @@
                 },
                 "thumb":{
                     "cssQuery":"img",
-                    "attr":"data-src"
+                    "attr":"data-src",
+"replace":["THUMBNUM","1"]
                 },
                 "viewCount":{
                     "selectType":"all",
@@ -62,7 +63,8 @@
                 },
                 "thumb":{
                     "cssQuery":"img",
-                    "attr":"data-src"
+                    "attr":"data-src",
+"replace":["THUMBNUM","1"]
                 },
                 "viewCount":{
                     "cssQuery":".metadata",
