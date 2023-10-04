@@ -79,6 +79,34 @@
                     "attr":"href"
                 }
             }
+        },
+{
+        "channel":"Eporner",
+        "url":"https://www.eporner.com",
+        "keys":{
+            "rootCssQuery":".mb",
+            "name":{
+                "cssQuery":"img",
+                "attr":"alt"
+            },
+            "thumb":{
+                "cssQuery":"img",
+                "attr":{
+                    "attrs":["src","data-src"],
+                    "startWith":"http"
+                }
+            },
+            "viewCount":{
+                "cssQuery":"mbvie"
+            },
+            "duration":{
+                "selectType":"mbtim"
+            },
+            "url":{
+                "cssQuery":"a",
+                "attr":"href"
+            }
         }
+    }
     ]
 }
