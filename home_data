@@ -110,7 +110,7 @@
     },
 {
         "channel":"Pornhub",
-        "url":"https://www.pornhub.com",
+        "url":"https://www.pornhub.com/video?page=1",
         "keys":{
             "rootCssQuery":".videoList li",
             "name":{
